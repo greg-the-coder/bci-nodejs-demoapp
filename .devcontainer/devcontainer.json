@@ -1,7 +1,9 @@
 {
   "name": "Node.js",
   "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:20-bullseye",
-
+	"remoteEnv": {
+        	"CODER": "devcontainer"
+  },
   "customizations": {
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
