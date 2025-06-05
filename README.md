@@ -30,7 +30,6 @@ The app has several basic pages accessed from the top navigation menu, some of w
 - Be using Linux, WSL or MacOS, with bash, make etc
 - [Node.js](https://nodejs.org/en/) - for running locally, linting, running tests etc
 - [Docker](https://docs.docker.com/get-docker/) - for running as a container, or building images
-- [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux) - for deployment to Azure
 
 Clone the project to any directory where you do development work
 
