@@ -1,7 +1,13 @@
 {
   "name": "Node.js",
   "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:20-bullseye",
-	"remoteEnv": {
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+  },
+  "mounts": [
+    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+  ],
+  "remoteEnv": {
         	"CODER": "devcontainer"
   },
   "customizations": {
